@@ -1,6 +1,6 @@
 {
-  "masterVersionFile": "https://raw.githubusercontent.com/qcwxezda/Starsector-Officer-Extension/main/officerextension.version",
-  "modName": "Officer Extension",
+  "masterVersionFile": "https://raw.githubusercontent.com/flying0719/Officer-Extension-zh-cn/main/officerextension.version",
+  "modName": "军官拓展",
   "modThreadId": 23928,
   "modVersion":
   {
@@ -8,6 +8,6 @@
     "minor":8,
     "patch":1
   },
-  "directDownloadURL": "https://github.com/qcwxezda/Starsector-Officer-Extension/releases/latest/download/Officer.Extension.zip",
-  "changelogURL":"https://raw.githubusercontent.com/qcwxezda/Starsector-Officer-Extension/main/changelog.txt"
+  "directDownloadURL": "https://github.com/flying0719/Officer-Extension-zh-cn/releases/download/0.8.1/Officer.Extension.0.8.1.zip",
+  "changelogURL":"https://raw.githubusercontent.com/flying0719/Officer-Extension-zh-cn/main/changelog.txt"
 }
