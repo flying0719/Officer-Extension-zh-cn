@@ -1,0 +1,43 @@
+# Note: These settings are overridden by the in-game LunaLib settings if you have that mod enabled.
+{
+  # Percentage of standard monthly salary that an officer is paid when suspended
+  "suspendedOfficerMonthlySalaryFraction": 0.1,
+
+  # Number of story points it costs to demote an officer
+  "demoteOfficerSPCost": 1,
+
+  # Fraction of bonus XP granted when spending a story point to demote an officer
+  "demoteOfficerBonusXPFraction": 1,
+
+  # Fee to suspend an officer, as a multiplier on top of their salary
+  "suspendOfficerCostMultiplier": 12,
+
+  # Fraction of bonus XP granted when officers forget elite skills
+  "forgetEliteSkillBonusXPFraction": 0,
+
+  # Fraction of XP benched (but not assigned or suspended) officers will gain, as a fraction
+  # of the XP they would have gained were they deployed (for long enough to gain the maximum amount of XP)
+  "idleOfficersXPFraction": 0,
+
+  # Override for the number of skills an officer should be able to select from if not mentored.
+  # Affects all officers. Set to <= 0 to use vanilla settings
+  "skillChoicesNotMentored": 0,
+
+  # Override for the number of skills an officer should be able to select from if mentored.
+  # Affects all officers. Set to <= 0 to use vanilla settings
+  "skillChoicesMentored": 0,
+
+  # Whether to show the opposing fleet's commander's combat-related skills upon first interaction
+  "shouldShowFleetCommanderSkills": true,
+
+  # Whether to show two skill panels, one for personal skills and another for fleet-wide skills
+  # Has no effect if "shouldShowFleetCommanderSkills" is disabled.
+  "shouldSplitFleetCommanderSkills": true,
+
+  # Persistent custom tags for filtering officers
+  # These will always show up as filter options and in the "edit tags" interface
+  # before any other custom tags
+  "officerFilterPersistentTags": [
+      # Example: "low tech", "midline", "high tech", "wolfpack"
+  ]
+}
